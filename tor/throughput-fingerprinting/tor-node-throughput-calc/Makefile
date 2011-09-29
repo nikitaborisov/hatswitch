@@ -2,7 +2,7 @@ CXXFLAGS =	-O2 -g -Wall -D_REENTRANT
 
 OBJS =		tor-node-throughput-calc.o
 
-LIBS =		-lmyutil -lpthread -lpcap
+LIBS =		-L../myutil -lmyutil -lpthread -lpcap
 
 TARGET =	tor-node-throughput-calc
 
